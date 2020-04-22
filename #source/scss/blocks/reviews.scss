@@ -1,0 +1,23 @@
+.reviews {
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.reviews__title {
+  color: $black;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  margin-top: 43px;
+}
+
+.reviews__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1167px;
+  padding: 0;
+  margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin-top: 41px;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.social__link {
+  width: 47px;
+  height: 47px;
+  background-color: $white;
+
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    background-color: $orange;
+  }
+}

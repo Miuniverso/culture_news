@@ -1,0 +1,39 @@
+.main-footer {
+  text-align: center;
+  background-color: $dark-gray;
+
+  padding-top: 36px;
+  padding-bottom: 47px;
+}
+
+.main-footer__wrapper {
+  margin-top: 28px;
+}
+
+.main-footer__list {
+  position: relative;
+  padding-bottom: 47px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 1170px;
+    height: 2px;
+    border: 1px solid $white;
+    opacity: 0.4;
+    bottom: 0;
+  }
+}
+
+.main-footer__list .nav__link {
+  color: $white;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.main-footer__social {
+  margin: 0;
+  padding: 0;
+}

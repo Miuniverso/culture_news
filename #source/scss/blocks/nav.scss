@@ -1,0 +1,21 @@
+.nav__list {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: $black;
+  font-family: $font-secondary;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+  &:hover {
+    color: $orange;
+  }
+}

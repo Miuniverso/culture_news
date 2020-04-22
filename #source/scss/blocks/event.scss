@@ -1,0 +1,20 @@
+.event:not(:last-child) {
+  margin-bottom: 47px;
+}
+
+.event__title {
+  color: $black;
+  font-family: $font-primary;
+  font-size: 23px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.event__desc {
+  color: $black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+  margin-top: 8px;
+}

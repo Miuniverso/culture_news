@@ -1,0 +1,60 @@
+.intro {
+  background-image: url("../img/hotel.jpg");
+  background-color: #2a4888;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+
+  padding-bottom: 44px;
+
+  @media (min-resolution: $retina-dppx) {
+    background-image: url("../img/hotel@2x.jpg");
+  }
+}
+
+.intro__button {
+  position: relative;
+
+  background-color: $orange;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  vertical-align: top;
+
+  margin-top: 46px;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    background-image: url("../img/button-icon.svg");
+    width: 27px;
+    height: 18px;
+    top: 16px;
+    right: 13px;
+  }
+}
+
+.intro__title {
+  color: $white;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  margin-top: 31px;
+}
+
+.intro__desc {
+  margin: 0 auto;
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-top: 131px;
+  max-width: 445px;
+}
